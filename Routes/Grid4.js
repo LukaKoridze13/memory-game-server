@@ -16,6 +16,7 @@ app.post("/", (req, res) => {
     minutes,
     hours,
     moves,
+    theme
   });
   time.save().then(res.status(201).send("Data was saved successfully"));
 });

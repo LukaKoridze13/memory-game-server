@@ -22,6 +22,10 @@ const grid6 = new Schema({
     type: "number",
     required: true,
   },
+  theme: {
+    type: "string",
+    required: true,
+  },
 });
 
 export default mongoose.model("Grid6", grid6);
