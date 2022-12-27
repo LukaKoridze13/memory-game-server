@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/", (req, res) => {
-  const { player, seconds, minutes, hours, moves } = req.body;
+  const { player, seconds, minutes, hours, moves,theme } = req.body;
   let time = new Grid6({
     player,
     seconds,
